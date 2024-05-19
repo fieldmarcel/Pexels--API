@@ -118,22 +118,25 @@ const location= useLocation()
       </div>
 <div className="container my-3 " style={{width :"45%"}}>
 
-{  location.pathname  ==='/ ' &&  (
-  <div className="mb-3">
-    <input type="text" 
-     className="form-control bg-dark text-light  "  
-    id="exampleInput" 
-    onChange={(e)=>setSearch(e.target.value)}//when use changes a input field set search function is called
-    />
-  </div>
-
-)}
+{location.pathname === "/" && (
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control bg-dark text-light"
+              id="exampleInput"
+              onChange={(e) => setSearch(e.target.value)}//when use changes a input field set search function is called
+              
+            />
+          </div>
+        )}
 
 </div>
     </div>
   )
 }
 
+
 export default Navbar;
+
 
 
