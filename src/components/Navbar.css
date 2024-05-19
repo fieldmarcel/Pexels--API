@@ -1,0 +1,17 @@
+.button {
+    /* background-color: rgb(224, 231, 234); */
+    border: 2px solid rgb(8, 103, 167);
+  }
+  .form-control{
+
+/* background-color: rgb(149, 176, 183);;
+color: white; */
+  }
+
+
+  .nav{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+  }
+  

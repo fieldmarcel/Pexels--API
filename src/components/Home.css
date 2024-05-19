@@ -1,0 +1,44 @@
+.items img{
+
+}
+.flex{
+  /* display: flex; */
+  display: grid;
+  justify-content: center;
+  align-items: center;  
+  /* flex-direction: column; */
+  grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+gap: 10px;
+
+}
+body  ::-webkit-scrollbar{
+
+  display: none;
+ }
+.flex .items{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex .items img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1.5px solid yellow;
+
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.flex .items img:hover{
+
+  transform: scale(1.05);
+  border: 1.9px solid rgb(37, 227, 72);
+} 
