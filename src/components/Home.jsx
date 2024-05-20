@@ -79,12 +79,7 @@ const Home = ({ images, loader, setSaved, saved }) => {
 
 export default Home;
 
-//   return (
-//     <div>
-//       <div className="container-fluid text-center" id="totop">
-//         {loader ? (
-//           <Loader /> //// including loader in home  from use state and giving props to home and apps
-//         ) : (
+
 //           <div className="flex">
 //             {images.map((image) => (
 //               <div
